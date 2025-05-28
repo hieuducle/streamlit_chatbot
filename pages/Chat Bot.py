@@ -103,7 +103,7 @@ import re
 import uuid
 
 # Set up the Streamlit interface
-page = st.title("Chat with Ngrok")
+page = st.title("Assisttant")
 
 def clear_session_state():
     for key in st.session_state.keys():
